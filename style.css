@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    height: 70% ;
+    width: 22%;
+    border-radius: 20px;
+    padding: 10px;
+}
+@media screen and (max-width:720px) {
+    .box{
+        width:28%;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .box{
+        width: 30%;
+    }
+}
+@media screen and (max-width:500px) {
+    .box{
+        width: 62%;
+    }
+    
+}
+.img-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-section img{
+    width: 270px;
+    border-radius: 15px;
+    margin-top: 8px;  
+}
+.text-section{
+    text-align: center;
+    font-size: 13px;
+    font-family:'outfit';
+    margin-top: 20px;
+    padding: 10px;
+}
+h1{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.8)
+}
+p{
+    font-size: 15px;
+    color: hsl(212, 35%, 79%);
+    margin-top: 15px;
+}
